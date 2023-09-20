@@ -1,0 +1,26 @@
+{
+  "name": "mern-blog-v2",
+  "version": "1.0.0",
+  "description": "<H1 align =\"center\" > MERN BLOG  </h1>\r <h5  align =\"center\"> \r Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>\r <br/>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index --prefix Backend",
+    "client": "npm start --prefix Frontend",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berthutapea/mern-blog-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berthutapea/mern-blog-v2/issues"
+  },
+  "homepage": "https://github.com/berthutapea/mern-blog-v2#readme",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  }
+}
